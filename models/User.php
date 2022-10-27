@@ -2,10 +2,10 @@
 
     class User {
 
-        public $nome;
-        public $cognome;
+        public $name;
+        public $surname;
         public $email;
-        public $data_nascita;
+        public $date_of_birt;
 
         public $cart = [];
 
