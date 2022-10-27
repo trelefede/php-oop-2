@@ -1,11 +1,12 @@
 <?php
+
     class Product {
 
-        public $price;
+        public $price = 0;
 
         public $name;
 
-        public $description;
+        public $description = '';
         public $category;
 
         function __construct($_price, $_name){
