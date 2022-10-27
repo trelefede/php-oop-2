@@ -2,7 +2,7 @@
 
     require_once __DIR__ . '/User.php';
 
-    class Registereduser extends User {
+    class RegisteredUser extends User {
 
         public $password;
 
